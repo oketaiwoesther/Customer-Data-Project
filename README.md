@@ -1,7 +1,7 @@
 # Customer-Data-Project
 ### Project Title: Customer Data Analysis
 ### Project Overview
-This data analysis project focuses on uncovering insights for sales performance. Through careful analysis of key data metrics, we aim to gain valuable information that drives strategic decision-making. By identifying patterns and top-performing areas, we’ll create a clear narrative around the data, turning insights into actionable stories for enhanced understanding and results.
+This project aims to analyze customer data to uncover insights into buying patterns, preferences, and behavior. By identifying key trends, we seek to inform strategies that enhance customer satisfaction, improve engagement, and support business growth through data-driven decisions.
 
 ### Data Sources
 The primary dataset for this analysis, Data_sales.csv, is an open-source file exclusively available for download to members of the Ladies in Tech Africa group. It can be accessed through various online platforms and open data repositories.
@@ -14,6 +14,30 @@ The primary dataset for this analysis, Data_sales.csv, is an open-source file ex
 
 ### Project Objective
 This project was designed to address the following Analysis goals;
+1. Analyze customer data using pivot tables to find subscription patterns.
+2. Calculate the average subscription duration and identify the most populars ubscription types.
+3. Create any other interesting reports.
+4. Retrieve the total number of customers from each region.
+5. Find the most popular subscription type by the number of customers.
+6. Find customers who canceled their subscription within 6 months.
+7. Calculate the average subscription duration for all customers.
+8. Find customers with subscriptions longer than 12 months.
+9. Calculate total revenue by subscription type.
+10. Find the top 3 regions by subscription cancellations.
+11. Find the total number of active and canceled subscriptions.
+12. Build a Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. Include slicers for interactive analysis.
+
+
+
+
+
+
+
+
+
+
+
+
 
 1. Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month
 2. Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
