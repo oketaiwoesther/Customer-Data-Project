@@ -27,38 +27,14 @@ This project was designed to address the following Analysis goals;
 11. Find the total number of active and canceled subscriptions.
 12. Build a Power BI dashboard that visualizes key customer segments, cancellations, and subscription trends. Include slicers for interactive analysis.
 
-
-
-
-
-
-
-
-
-
-
-
-
-1. Perform an initial exploration of the sales data. Use pivot tables to summarize total sales by product, region, and month
-2. Use Excel formulas to calculate metrics such as average sales per product and total revenue by region.
-3. Create any other interesting report
-4. Retrieve the total sales for each product category.
-5. Find the number of sales transactions in each region.
-6. Find the highest-selling product by total sales value.
-7. Calculate total revenue per product.
-8. Calculate monthly sales totals for the current year.
-9. Find the top 5 customers by total purchase amount.
-10. Calculate the percentage of total sales contributed by each region.
-11. Identify products with no sales in the last quarter.
-12. Create a dashboard that visualizes the insights found in Excel and SQL. The dashboard should include a sales overview, top-performing products, and regional breakdowns.
-
 ### Key Metrics
-- Revenue: Some of the Revenue column group by Region
-- Unit Sold: Some of the Units sold grouped by region
-- Average Revenue: Calculated as Total Revenue/Tota Units sold for each region to measure the revenue efficiency
+- Average Revenue Per User (ARPU) - Indicates the average income generated per user or customer.
+- Customer Satisfaction Score (CSAT) - Assesses how satisfied customers are with specific interactions or the overall experience.
+- Purchase Frequency - Measures how often customers make purchases, helping identify highly engaged customers.
+
 
 ### How To Used The Data
-- Revenue by Region: Group the Data by region and sum the revenue column, this provides overview of how much revenue each region is generating
+- Total Revenue by SubscriptionType: Group the Data by region and sum the revenue column, this provides overview of how much revenue each region is generating
 - Units Sold by Region: Group the Data by Region and sum the units sold to identify which regions are moving the most products
 - Average Revenue by Region:Calculate the Average Revenue per sale in each region to access performance
 
