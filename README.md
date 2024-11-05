@@ -34,9 +34,9 @@ This project was designed to address the following Analysis goals;
 
 
 ### How To Used The Data
-- Total Revenue by SubscriptionType: Group the Data by region and sum the revenue column, this provides overview of how much revenue each region is generating
-- Units Sold by Region: Group the Data by Region and sum the units sold to identify which regions are moving the most products
-- Average Revenue by Region:Calculate the Average Revenue per sale in each region to access performance
+- Total Revenue by SubscriptionType: Segment total revenue by each subscription type (e.g., monthly, quarterly, yearly) to identify which subscriptions are most profitable
+- Total No of Customer: Monitor the total customer count over time to gauge growth, stagnation, or decline in customer acquisition.
+- Average Subscription Duration: Segment average subscription duration by factors like subscription type, customer demographics, or geographic location.
 
 ### Data Cleaning and Preparation
 At the beginning of data cleaning and preparation, we carry out the following steps:
