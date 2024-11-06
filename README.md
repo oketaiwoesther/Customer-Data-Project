@@ -147,8 +147,30 @@ Opportunities for Premium and Standard Plans:
 
 With fewer customers in Premium and Standard plans, there could be opportunities to explore customer feedback and improve these offerings, either by adding more benefits, adjusting pricing, or creating bundled options to make these plans more attractive.
 
+Revenue by Subscription type by Region
+
+Basic Subscription: This type generates revenue mainly in the East and North regions, with a total of 33,776,735, suggesting it may be particularly popular or well-promoted in these areas.
+
+Premium Subscription: All revenue from the Premium subscription (16,899,064) is concentrated in the South region. This might indicate a regional preference or targeting strategy in the South for higher-tier subscriptions.
+
+Standard Subscription: The revenue for Standard subscriptions (16,864,376) is solely from the West region, indicating a strong presence or preference for this subscription type in that region.
+
+Overall Revenue: The total revenue across all regions and subscription types is 67,540,175. Basic subscriptions contribute the largest share due to their presence in multiple regions, while Premium and Standard are each focused in one region.
+
+
 ### Conclusion
-the data indicates a clear preference among customers for the Basic subscription plan, suggesting that it aligns well with their primary needs, likely due to its affordability or essential feature set. Conversely, the Premium and Standard plans, which have similar but significantly lower customer counts, may benefit from enhancements to boost their appeal. To drive growth in these higher-tier plans, the company could consider adding value, refining pricing strategies, or offering attractive bundles. Focusing on customer feedback could be key to optimizing these plans and ensuring they meet evolving customer expectations.
+The customer data analysis reveals that the Basic subscription is the most popular, generating the highest revenue and customer count. Premium and Standard subscriptions have fewer users and relatively higher cancellation rates, indicating potential for improvement in these tiers. Regionally, revenue contributions vary, with each region showing a unique preference for subscription types. Overall, the Basic plan is a major revenue driver, but Premium and Standard plans present opportunities for growth if customer retention is improved. Targeted regional strategies and enhancing value for Premium and Standard subscriptions could further boost customer satisfaction and revenue.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
