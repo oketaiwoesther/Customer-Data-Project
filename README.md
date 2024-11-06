@@ -108,7 +108,15 @@ FROM [dbo].[lita capstone_CustomersData];
 - GitHub for Portfolio Building
 
 
-### Data Analysis
-This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
+### Visual Analysis and Inference
+
+![image](https://github.com/user-attachments/assets/79135e89-1db4-4398-bf0c-aed02bf0bc0c)
+
+![image](https://github.com/user-attachments/assets/dad4416b-e7ff-4a79-b25c-1c247bff0949)
+
+
+
+
+
 
 ### Conclusion
