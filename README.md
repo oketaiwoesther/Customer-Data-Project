@@ -6,12 +6,6 @@ This project aims to analyze customer data to uncover insights into buying patte
 ### Data Sources
 The primary dataset for this analysis, Data_sales.csv, is an open-source file exclusively available for download to members of the Ladies in Tech Africa group. It can be accessed through various online platforms and open data repositories.
 
-### Tools and Method Used
-- Microsoft Excel  The Data was analysis using Microsoft Excel, utilizing pivot table to organize, summarize , and filter the Data for easier interpretation [Download Here](https://canvas.instructure.com/courses/10186984/files/folder/Capstone%20Project)
-- SQL - Structured Query Language for Querying of Data
-- Power BI - For Visualization
-- GitHub for Portfolio Building
-
 ### Project Objective
 This project was designed to address the following Analysis goals;
 1. Analyze customer data using pivot tables to find subscription patterns.
@@ -32,7 +26,6 @@ This project was designed to address the following Analysis goals;
 - Customer Satisfaction Score (CSAT) - Assesses how satisfied customers are with specific interactions or the overall experience.
 - Purchase Frequency - Measures how often customers make purchases, helping identify highly engaged customers.
 
-
 ### How To Used The Data
 - Total Revenue by SubscriptionType: Segment total revenue by each subscription type (e.g., monthly, quarterly, yearly) to identify which subscriptions are most profitable
 - Total No of Customer: Monitor the total customer count over time to gauge growth, stagnation, or decline in customer acquisition.
@@ -44,7 +37,78 @@ At the beginning of data cleaning and preparation, we carry out the following st
 2. Handling missing variables
 3. Data Cleaning and formatting
 
+### Formular Used
+```
+SELECT * FROM [dbo].[lita capstone_CustomersData]
+
+--- The total number of customers from each region.
+SELECT Region, 
+       COUNT(DISTINCT CustomerID) AS TotalCustomers
+FROM dbo.[lita capstone_CustomersData]
+GROUP BY Region;
+
+--- The most popular subscription type by the number of customers.
+SELECT TOP 1 SubscriptionType, 
+       COUNT(DISTINCT CustomerID) AS CustomerCount
+FROM dbo.[lita capstone_CustomersData]
+GROUP BY SubscriptionType
+ORDER BY CustomerCount DESC;
+
+--- customers who canceled their subscription within 6 months.
+SELECT CustomerID, 
+       SubscriptionStart, 
+       SubscriptionEnd
+FROM [dbo].[lita capstone_CustomersData]
+WHERE Canceled = 'True' 
+	AND DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) <= 6;
+	
+ --- The average subscription duration for all customers.
+SELECT AVG(DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd)) AS AverageSubscriptionDurationDays
+FROM dbo.[lita capstone_CustomersData]
+WHERE SubscriptionEnd IS NOT NULL;
+
+---  customers with subscriptions longer than 12 months.
+SELECT CustomerID, 
+       SubscriptionStart, 
+       SubscriptionEnd
+FROM [dbo].[lita capstone_CustomersData]
+WHERE DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) > 12;
+
+--- calculate total revenue by subscription type. 
+SELECT SubscriptionType, 
+       SUM(Revenue) AS TotalRevenue
+FROM [dbo].[lita capstone_CustomersData]
+GROUP BY SubscriptionType;
+
+--- Top 3 regions by subscription cancellations
+SELECT TOP 3 Region, 
+       COUNT(*) AS CancellationCount
+FROM [dbo].[lita capstone_CustomersData]
+WHERE Canceled = 'True'  -- Only count canceled subscriptions
+GROUP BY Region
+ORDER BY CancellationCount DESC;
+
+--- The total number of active and canceled subscriptions.
+SELECT 
+    Canceled, 
+    COUNT(*) AS TotalSubscriptions
+FROM 
+    [dbo].[lita capstone_CustomersData]
+GROUP BY 
+    Canceled;
+
+SELECT COUNT(DISTINCT CustomerID) AS TotalUniqueCustomers
+FROM [dbo].[lita capstone_CustomersData];
+```
+
+### Tools and Method Used
+- Microsoft Excel  The Data was analysis using Microsoft Excel, utilizing pivot table to organize, summarize , and filter the Data for easier interpretation [Download Here](https://canvas.instructure.com/courses/10186984/files/folder/Capstone%20Project)
+- SQL - Structured Query Language for Querying of Data
+- Power BI - For Visualization
+- GitHub for Portfolio Building
+
 
 ### Data Analysis
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
 
+### Conclusion
