@@ -9,7 +9,7 @@ The primary dataset for this analysis, Data_sales.csv, is an open-source file ex
 ### Project Objective
 This project was designed to address the following Analysis goals;
 1. Analyze customer data using pivot tables to find subscription patterns.
-2. Calculate the average subscription duration and identify the most populars ubscription types.
+2. Calculate the average subscription duration and identify the most populars subscription types.
 3. Create any other interesting reports.
 4. Retrieve the total number of customers from each region.
 5. Find the most popular subscription type by the number of customers.
@@ -120,4 +120,17 @@ FROM [dbo].[lita capstone_CustomersData];
 
 ![customerData power bi short](https://github.com/user-attachments/assets/755becfc-baf4-4171-a8c7-71d0de6779ec)
 
+### Inference
+Popularity of Subscription Types:
+
+The Basic subscription type is the most popular, with the highest number of active (non-canceled) subscriptions. This suggests it is the most appealing option for customers, likely due to affordability or meeting essential needs.
+Cancellation Rates Across Subscription Types:
+
+Premium and Standard subscriptions show a higher proportion of cancellations compared to Basic. This could indicate that customers may find less value in these higher-tier plans or that they may be more price-sensitive at these levels.
+Retention of Basic Subscribers:
+
+The Basic subscription type not only has the highest number of subscribers but also appears to have a relatively lower cancellation rate. This suggests that customers in the Basic tier are more likely to continue their subscriptions, possibly due to affordability or meeting minimal requirements.
+Potential Focus Areas for Improvement:
+
+Since Premium and Standard plans have a noticeable number of cancellations, there may be an opportunity to improve retention by enhancing features, offering incentives, or adjusting pricing in these tiers.
 ### Conclusion
