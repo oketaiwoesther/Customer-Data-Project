@@ -1,5 +1,4 @@
-# Customer-Data-Project
-
+# Customer-Data-Analysis-Project
 ### Project Overview
 This project aims to analyze customer data to uncover insights into buying patterns, preferences, and behavior. By identifying key trends, we seek to inform strategies that enhance customer satisfaction, improve engagement, and support business growth through data-driven decisions.
 
