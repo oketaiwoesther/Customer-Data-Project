@@ -114,9 +114,10 @@ FROM [dbo].[lita capstone_CustomersData];
 
 ![image](https://github.com/user-attachments/assets/dad4416b-e7ff-4a79-b25c-1c247bff0949)
 
+![customerData short](https://github.com/user-attachments/assets/cee8bdda-c0f2-45b2-b41d-6287c6f77fde)
 
+![CustomerData short2](https://github.com/user-attachments/assets/a9b40e14-67be-403e-a3d0-36d883a51369)
 
-
-
+![customerData power bi short](https://github.com/user-attachments/assets/755becfc-baf4-4171-a8c7-71d0de6779ec)
 
 ### Conclusion
